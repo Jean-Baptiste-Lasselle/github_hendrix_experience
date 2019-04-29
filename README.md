@@ -73,6 +73,6 @@ _Anomaly_
 
 So, doing that kind of git clones, here is what I today got : 
 
-![obvious problem on github platform]()
+![obvious problem on github platform](https://github.com/Jean-Baptiste-Lasselle/github_hendrix_experience/raw/master/images/GITHUB_SSH_OBVIOUS_BUG_I_DELETED_ALL_SSH_KEYS_BUT_I_CAN_GIT_CLONE_WITH_SSH2019-04-29%2017-18-59.png)
 
 
