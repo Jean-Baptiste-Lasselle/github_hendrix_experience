@@ -17,7 +17,7 @@ Today, April 29, 2019, I have experienced the most bizarre technical anomaly. I 
 
 ###  April 29, 2019 : the most bizarre SSH authentication technical anomaly
 
-_Context_ 
+_**Context**_ 
 
 I am working with multiple repos. I am building a software factory, so I just use SSH auth and private / public asymmetric key pairs.
 
@@ -69,10 +69,25 @@ Unless you do one additional thing : In your Github's user settings menu, you'll
 see Gthub's well documented Help section about that : https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account
 
 
-_Anomaly_
+_**Anomaly**_
 
 So, doing that kind of git clones, here is what I today got : 
 
 ![obvious problem on github platform](https://github.com/Jean-Baptiste-Lasselle/github_hendrix_experience/raw/master/images/GITHUB_SSH_OBVIOUS_BUG_I_DELETED_ALL_SSH_KEYS_BUT_I_CAN_GIT_CLONE_WITH_SSH2019-04-29%2017-18-59.png)
+
+And here is the big problem : 
+
+* If you carefully behold that screenshot, you will see taht I deleted ALL public SSH Keys from my user. 
+* Yet, I can still silently GIT clone using an SSH private key file !!!
+
+This fact is very important, because that kind of authencitation is THE ONLY SECRURE PROFESSIONAL way to use github.
+
+In ohter words, it is a MOST, if not THE most sensible part of our everyday working with Github Platform.
+
+And that's about security :  Shopuld we ask orselves questions about that? 
+
+I will today forward that to the Github support team, and will keep you informed of any further exchange with them.
+
+
 
 
