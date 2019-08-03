@@ -27,7 +27,7 @@ Basically, this means that I do git clones using the following standard, worldwi
 export GIT_SSH_COMMAND='ssh -i /path/to/my/private/key/on/any/machine/thats/mine/private_keyfile'
 
 # 
-# Most of the time, and very classicly : 
+# Most of the time, and very classically : 
 # [/path/to/my/private/key/on/any/machine/thats/mine/private_keyfile] is [~/.ssh/id_rsa]
 # 
 
